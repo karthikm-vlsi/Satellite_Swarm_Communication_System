@@ -4,7 +4,7 @@ A Satellite Swarm Communication System is a prototype multi-node wireless commun
 
 The system uses multi-hop communication, allowing data to travel from one node to another until it reaches the ground station. Each node has a unique address and can receive, process, and forward data. If a node becomes unavailable, the system attempts to use another available node, demonstrating fault-tolerant and adaptive communication.
 
-The prototype uses Arduino UNO, nRF24L01, AMS1117 3.3V regulator, 10µF capacitor, LED indicators, and a 16×2 I2C LCD at the ground station. The LED indicates data reception at each node, while the ground-station LCD displays the final received information.
+The prototype uses Arduino UNO, nRF24L01, AMS1117 3.3V regulator, 10µF capacitor, LED indicators. The LED indicates data reception at each node, while the ground-station LCD displays the final received information.
 
 Key Features
 📡 Multi-node RF communication
@@ -17,4 +17,4 @@ Key Features
 🆔 Unique address for each node
 Hardware
 
-Arduino UNO → nRF24L01 → AMS1117 → LED → 16×2 I2C LCD
+Arduino UNO → nRF24L01 → AMS1117 → LED → SERIAL MONITOR
