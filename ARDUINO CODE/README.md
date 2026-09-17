@@ -44,7 +44,7 @@ void setup() {
 
 void loop() {
 
-  // 🔹 RECEIVE
+  //  RECEIVE
   if (radio.available()) {
 
     digitalWrite(ledPin, HIGH);  // LED ON (data received)
@@ -90,7 +90,7 @@ void loop() {
     digitalWrite(ledPin, LOW); // LED OFF after processing
   }
 
-  // 🔹 Initial send (Node A only)
+  //  Initial send (Node A only)
   if (NODE_ID == 1) {
     static bool sentOnce = false;
 
