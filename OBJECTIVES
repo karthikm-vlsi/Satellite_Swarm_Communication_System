@@ -18,3 +18,5 @@ Key Features
 Hardware
 
 Arduino UNO → nRF24L01 → AMS1117 → LED → SERIAL MONITOR
+
+If a node becomes unavailable, the communication path can use another available node.
