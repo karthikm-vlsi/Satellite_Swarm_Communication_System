@@ -1,0 +1,20 @@
+🛰️ Satellite Swarm Communication System
+
+A Satellite Swarm Communication System is a prototype multi-node wireless communication network inspired by distributed satellite swarm concepts. The system consists of multiple Arduino UNO-based satellite nodes, where each node works as both a transmitter (Tx) and receiver (Rx) using nRF24L01 RF transceiver modules.
+
+The system uses multi-hop communication, allowing data to travel from one node to another until it reaches the ground station. Each node has a unique address and can receive, process, and forward data. If a node becomes unavailable, the system attempts to use another available node, demonstrating fault-tolerant and adaptive communication.
+
+The prototype uses Arduino UNO, nRF24L01, AMS1117 3.3V regulator, 10µF capacitor, LED indicators, and a 16×2 I2C LCD at the ground station. The LED indicates data reception at each node, while the ground-station LCD displays the final received information.
+
+Key Features
+📡 Multi-node RF communication
+🔄 Transmitter + receiver operation at each node
+🔗 Multi-hop data forwarding
+🛡️ Fault-tolerant communication
+🔁 Alternate-node forwarding when a node is unavailable
+📟 Ground-station data display
+💡 LED-based node activity indication
+🆔 Unique address for each node
+Hardware
+
+Arduino UNO → nRF24L01 → AMS1117 → LED → 16×2 I2C LCD
